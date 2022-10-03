@@ -311,6 +311,34 @@ a, a:hover{
    background: transparent;
    border: 1px solid #00bc9c;
 }
+/* fun-facts css code start */
+.fun-fact{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-fun{
+	padding: 40px;
+	width: 100%;
+	text-align: center;
+	border: 2px solid #3c5065;
+}
+.inner-fun .fa{
+	font-size: 80px;
+	color: #3c5065;
+	margin: 0px 0px 20px;
+}
+.inner-fun h1{
+	font-size: 70px;
+	font-weight: 300;
+	color: #3c5065;
+}
+.inner-fun h4{
+	font-size: 22px;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #3c5065;
+}
 /*footer css code start here*/
 .footer{
 	width: 100%;
@@ -446,14 +474,12 @@ a, a:hover{
 	color: #a3b1bf;
 	border-radius: 2px;
 	background: #3c5065;
-    border: 1px solid #3c5065;
-    transition: 1s;
+        border: 1px solid #3c5065;
+        transition: 1s;
 }
 .footer .main-footer .btn-info:hover, .footer .main-footer .btn-info:focus{
 	color: #00bc9c;
     background: transparent;
     border: 1px solid #00bc9c;
 }
-
-
 
