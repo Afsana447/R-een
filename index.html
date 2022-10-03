@@ -356,7 +356,43 @@
        </div>
      </section>
     <!-- get in touch code end here -->
-
+    
+ <!-- fun-facts code start here -->
+     <section class="fun-fact">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-3">
+             <div class="inner-fun">
+               <i class="fa fa-heart"></i>
+               <h1 class="hrt"></h1>
+               <h4>Working Hours</h4>
+                </div>
+                 </div>
+                 <div class="col-lg-3">
+                   <div class="inner-fun">
+                   <i class="fa fa-file-code-o"></i>
+                   <h1 class="apple"></h1>
+                   <h4>Project</h4>
+                   </div>
+                   </div>         
+                 <div class="col-lg-3">
+                    <div class="inner-fun">
+                     <i class="fa fa-users"></i>
+                     <h1 class="orange"></h1>
+                     <h4>Client</h4>
+                     </div>
+                 </div>
+                 <div class="col-lg-3">
+                   <div class="inner-fun">
+                   <i class="fa fa-coffee"></i>
+                   <h1 class="banana"></h1>
+                   <h4>Cup of tea</h4>
+                   </div>
+                   </div>           
+           </div>
+       </div>
+     </section>
+    <!-- fun-facts code end here -->
     <!-- footer section code start here -->
     <section class="footer">
      <div class="widget-section" id="Mega Menu">
@@ -509,8 +545,12 @@
         <script src="js/stickUp.min.js"></script>
         <!-- ######################################### -->
         
+        <!-- ######################################### -->
+        <script src="js/animationCounter.js"></script>
+        <!-- ######################################### -->
+        
         <script type="text/javascript">
-              //initiating jQuery
+              //initiating jQuery  
               jQuery(function($) {
                 $(document).ready( function() {
                   //enabling stickUp on the '.navbar-wrapper' class
@@ -527,7 +567,43 @@
             new WOW().init();
           });
         });
-       </script>
+          </script>
+          <script>
+          jQuery(function($) {
+
+          $(document).ready( function() {
+
+          $('.hrt').animationCounter({
+          start: 0,
+          step: 10,
+          end: 1000,
+          delay:10
+        }); 
+          $('.apple').animationCounter({
+          start: 0,
+          step: 10,
+          end: 15000,
+          delay:10
+        }); 
+
+          $('.orange').animationCounter({
+          start: 0,
+          step: 10,
+          end: 900,
+          delay:10
+        }); 
+
+          $('.banana').animationCounter({
+          start: 0,
+          step: 10,
+          end: 2000,
+          delay:10
+        });    
+
+       });
+     });
+     </script>   
+      
 </body>
 </html>
 
